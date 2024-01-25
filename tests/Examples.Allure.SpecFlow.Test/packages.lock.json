@@ -83,6 +83,18 @@
           "System.Runtime.Loader": "4.3.0"
         }
       },
+      "SpecFlow.Allure": {
+        "type": "Direct",
+        "requested": "[3.5.0.73, )",
+        "resolved": "3.5.0.73",
+        "contentHash": "ohS1oUQ14tfqT+Ri/sQZnWmUPSATx3QNcFpzmND5Qn6/fSS2SFtVYZ8K0ZulBq/bAP2BiPR0cLXwslDB+Irx6A==",
+        "dependencies": {
+          "Allure.Commons": "3.5.0.73",
+          "CsvHelper": "27.1.0",
+          "SpecFlow": "[3.9.8, 3.10.0)",
+          "System.Collections.Specialized": "4.3.0"
+        }
+      },
       "SpecFlow.NUnit": {
         "type": "Direct",
         "requested": "[3.9.74, )",
@@ -101,6 +113,15 @@
         "contentHash": "I/9OvmKOohJqIUNJ0xGYJCWfL6WKDaes8OoOAD/2yhGX+tzC5ofs9yqkP9Cu/xfnIx+11IR3pZs7YhBhGAcgWQ==",
         "dependencies": {
           "SpecFlow": "[3.9.74]"
+        }
+      },
+      "Allure.Commons": {
+        "type": "Transitive",
+        "resolved": "3.5.0.73",
+        "contentHash": "cqMlst9Za1TfOsgN2fWzMkdUeOTy07AZHaudOuRVAjTyBmUxDKOKxCwlkxO1Xw91ogsPCdXIJdduUtFFGw+Thw==",
+        "dependencies": {
+          "MimeTypesMap": "1.0.8",
+          "Newtonsoft.Json": "13.0.1"
         }
       },
       "Allure.Net.Commons": {
